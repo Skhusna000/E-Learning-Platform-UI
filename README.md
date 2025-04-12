@@ -33,7 +33,17 @@ Contact Page:  The "Contact" page provides a simple yet effective way for users 
 
 OUTPUT:
 
+
 ![Image](https://github.com/user-attachments/assets/8f647ab5-5479-4a86-9d53-a511b36b5257)
+
+
+![Image](https://github.com/user-attachments/assets/3783a39d-96af-4df8-9076-4e85912361d2)
+
+
+![Image](https://github.com/user-attachments/assets/b161b5b4-73cb-40c8-9c99-4ea0688a2390)
+
+
+![Image](https://github.com/user-attachments/assets/62ffbb90-83f7-4d2b-965e-091a8154521e)
 
 
 
