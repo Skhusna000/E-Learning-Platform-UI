@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+
+    <!--  Font Awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!--  Custom Css File Link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- Header Section Starts -->
+<header class="header">
+    <a href="#" class="logo"><i class="fas fa-lightbulb"></i> MentorHive</a>
+
+
+    <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="course.html">Course</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="account-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </div>
+</header>
+
+
+<!-- account form section starts  -->
+
+<div class="account-form">
+
+    <div id="close-form" class="fas fa-times"></div>
+ 
+    <div class="buttons">
+       <span class="btn active login-btn">login</span>
+       <span class="btn register-btn">register</span>
+    </div>
+ 
+    <form class="login-form active" action="">
+       <h3>login now</h3>
+       <input type="email" placeholder="enter your email" class="box">
+       <input type="password" placeholder="enter your password" class="box">
+       <div class="flex">
+          <input type="checkbox" name="" id="remember-me">
+          <label for="remember-me">remember me</label>
+          <a href="#">forgot password?</a>
+       </div>
+       <input type="submit" value="login now" class="btn">
+    </form>
+ 
+    <form class="register-form" action="">
+       <h3>register now</h3>
+       <input type="email" placeholder="enter your email" class="box">
+       <input type="password" placeholder="enter your password" class="box">
+       <input type="password" placeholder="confirm your password" class="box">
+       <input type="submit" value="register now" class="btn">
+    </form>
+ 
+ </div>
+ 
+ <!-- account form section ends -->
+
+ <!----------------------End Header Section--------------------->  
+
+<!-- home section starts  -->
+
+<section class="home">
+
+    <div class="swiper home-slider">
+       
+       <div class="swiper-wrapper">
+ 
+          <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+             <div class="content">
+                <h3>the best courses you will find find here!</h3>
+                <p>Experience engaging lessons that feature videos, quizzes, and real-time feedback. This interactive setting makes learning fun and practical, encouraging active participation and deeper understanding.</p>
+                <a href="#" class="btn">get started</a>
+             </div>
+          </section>
+ 
+          <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+             <div class="content">
+                <h3>Flexible, Self-Paced Courses</h3>
+                <p>Learn on your own schedule with courses designed to fit diverse lifestyles. With self-paced modules, you can absorb material at a comfortable speed while balancing other commitments.</p>
+                <a href="#" class="btn">get started</a>
+             </div>
+          </section>
+ 
+          <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+             <div class="content">
+                <h3>Expert Guidance & Community Support</h3>
+                <p>Benefit from direct mentorship and a vibrant community of learners. Whether through live sessions, discussion forums, or one-on-one support, expert help is always available to guide you through your learning journey.</p>
+                <a href="#" class="btn">get started</a>
+             </div>
+          </section>
+ 
+       </div>
+ 
+       <div class="swiper-pagination"></div>
+ 
+    </div>
+ 
+ </section>
+ 
+ <!-- home section ends -->
+
+ <!-- subjects section starts  -->
+
+<section class="subjects">
+
+    <h1 class="heading">our popular subjects</h1>
+ 
+    <div class="box-container">
+ 
+       <div class="box">
+          <img src="images/subject-icon-1.png" alt="">
+          <h3>graphic design</h3>
+          <p>12 modules</p>
+       </div>
+ 
+       <div class="box">
+          <img src="images/subject-icon-2.png" alt="">
+          <h3>mathemetics</h3>
+          <p>12 modules</p>
+       </div>
+ 
+       <div class="box">
+          <img src="images/subject-icon-3.png" alt="">
+          <h3>teaching</h3>
+          <p>12 modules</p>
+       </div>
+ 
+       <div class="box">
+          <img src="images/subject-icon-4.png" alt="">
+          <h3>development</h3>
+          <p>12 modules</p>
+       </div>
+ 
+       <div class="box">
+          <img src="images/subject-icon-5.png" alt="">
+          <h3>science</h3>
+          <p>12 modules</p>
+       </div>
+ 
+       <div class="box">
+          <img src="images/subject-icon-6.png" alt="">
+          <h3>engineering</h3>
+          <p>12 modules</p>
+       </div>
+ 
+    </div>
+ 
+ </section>
+ 
+ <!-- subjects section ends -->
+
+
+<!--Home Course Slider Section Starts-->
+<section class="home-course">
+
+
+    <h1 class="heading"> Our Popular Courses </h1>
+    
+    <div class="swiper home-courses-slider">
+    
+       <div class="swiper-wrapper">
+    
+          <div class="swiper-slide slide">
+             <div class="image">
+                <img src="images/course-1-1.png" alt="">
+             </div>
+             <div class="content">
+                <h1 style="color: #0eb582; font-size: 30px;">Coding for Beginners</h1>
+                <p style="font-size: 15px;">This course introduces easy-to-follow languages like Python or JavaScript to build a strong foundation in coding.</p>
+                <a href="#" class="btn">Read More</a>
+             </div>
+          </div>
+    
+          <div class="swiper-slide slide">
+             <div class="image">
+                <img src="images/course-1-2.png" alt="">
+             </div>
+             <div class="content">
+                <h3 style="color: #0eb582; font-size: 30px;">Web Development</h3>
+                <p style="font-size: 15px;">Understand HTML, CSS, and a touch of JavaScript to design, build, and publish your own web pages.</p>
+                <a href="#" class="btn">Read More</a>
+             </div>
+          </div>
+    
+          <div class="swiper-slide slide">
+             <div class="image">
+                <img src="images/course-1-3.png" alt="">
+             </div>
+             <div class="content">
+                <h3 style="color: #0eb582; font-size: 30px;">Data Science</h3>
+                <p style="font-size: 15px;">Learn techniques for collecting, cleaning, and analyzing data to uncover insights and make smarter decisions.</p>
+                <a href="#" class="btn">Read More</a>
+             </div>
+          </div>
+    
+          <div class="swiper-slide slide">
+             <div class="image">
+                <img src="images/course-1-4.png" alt="">
+             </div>
+             <div class="content">
+                <h3 style="color: #0eb582; font-size: 30px;">Cybersecurity Basics</h3>
+                <p style="font-size: 15px;">Get introduced to simple ways to secure data, recognize threats, and apply basic safety measures online.</p>
+                <a href="#" class="btn">Read More</a>
+             </div>
+          </div>
+    
+          <div class="swiper-slide slide">
+             <div class="image">
+                <img src="images/course-1-5.png" alt="">
+             </div>
+             <div class="content">
+                <h3 style="color: #0eb582; font-size: 30px;">AI and Machine Learning</h3>
+                <p style="font-size: 15px;">This course explains the basics of artificial intelligence and machine learning in simple terms, showing real-world applications.</p>
+                <a href="#" class="btn">Read More</a>
+             </div>
+          </div>
+
+       </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- home courses slider section ends -->
+
+
+    <!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+ 
+       <div class="box">
+          <h3> <i class="fas fa-lightbulb"></i> MentorHive </h3>
+          <p>Inspire your curiosity, ignite your future.
+            Learn today, lead tomorrow.</p>
+          <div class="share">
+             <a href="#" class="fab fa-facebook-f"></a>
+             <a href="#" class="fab fa-twitter"></a>
+             <a href="#" class="fab fa-instagram"></a>
+             <a href="#" class="fab fa-linkedin"></a>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <h3>quick links</h3>
+          <a href="home.html" class="link">Home</a>
+          <a href="about.html" class="link">About</a>
+          <a href="courses.html" class="link">Courses</a>
+          <a href="contact.html" class="link">Contact</a>
+       </div>
+ 
+       <div class="box">
+          <h3>useful links</h3>
+          <a href="#" class="link">Help Center</a>
+          <a href="#" class="link">Ask Questions</a>
+          <a href="#" class="link">Send Feedback</a>
+          <a href="#" class="link">Private Policy</a>
+          <a href="#" class="link">Terms Of Use</a>
+       </div>
+ 
+       <div class="box">
+          <h3>newsletter</h3>
+          <p>Subscribe for Latest Updates</p>
+          <form action="">
+             <input type="email" name="" placeholder="enter your email" id="" class="email">
+             <input type="submit" value="subscribe" class="btn">
+          </form>
+       </div>
+ 
+    </div>
+ 
+    <div class="credit"> Created by <span>Ms. Husna Rashid Shaikh</span> | all rights reserved! </div>
+ 
+ </section>
+ 
+ <!-- footer section ends -->
+ 
+    
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+<!--  Custom Js File Link  -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
